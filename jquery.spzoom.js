@@ -93,7 +93,7 @@
 
         this.$zoom = $('<div class="spzoom-zoom"/>').css({
             'box-sizing': 'border-box',
-            'position': 'absolute',
+            //'position': 'absolute',
             'top': 0,
             'left': 0,
             'overflow': 'hidden',
@@ -302,7 +302,8 @@
         this.$zoom.css({
             'width': this.options.width,
             'height': this.options.height,
-            'visibility': 'visible'
+            'visibility': 'visible',
+            'position': 'absolute'
         });
     };
 
